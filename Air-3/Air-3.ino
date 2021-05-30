@@ -36,9 +36,10 @@ void loop()
   // int A0_A1_mV = round(((A0_value - A1_value) * 5000.0 ) / 1023.0);
   
   // Serial.println(A0_A1_mV);
-  Serial.println("A0_mV");
-  Serial.println(A0_mV);
-  Serial.println("A1_mV");
+  //Serial.print("A0: ");
+  Serial.print(A0_mV);
+  Serial.print(" ");
+  //Serial.print("A1: ");
   Serial.println(A1_mV);
   delay(200);
 }
