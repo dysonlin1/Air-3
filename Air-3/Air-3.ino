@@ -1,7 +1,7 @@
 // Air-3
 //
-// Read the air voltage of A0, A1, and (A0 - A1) to predict quakes
-// 測量A0、A1和(A0 - A1)的空氣電壓以預測地震
+// Read the air voltage of A0 and A1 to predict quakes
+// 測量A0和A1的空氣電壓以預測地震
 // 
 // 台灣地震預測研究所 所長 
 // 林湧森
@@ -14,6 +14,7 @@
 // 2016-12-18 22:21 UTC+8 V1.3 Change program name to Air-2
 // 2019-11-07 16:28 UTC+8 V1.4 Modidy Air-2 to get Air-1
 // 2021-05-30 17:15 UTC+8 V1.5 Modidy Air-1 to get Air-3
+// 2022-02-24 01:58 UTC+8 V1.6 Read the air voltage of A0 and A1 to predict quakes
 
 // analogRead() returns 0 ~ 1023
 // 0 means 0 mV.
